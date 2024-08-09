@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="stylesheet" href="netflix_style.css">
+    <link rel="shortcut icon" href="assets/images/netflix_tab_logo.ico">
+</head>
+
+<body>
+
+    <!-- Header of the page. -->
+    <header>
+        <div class="box">
+        <!-- Navbar -->
+            <nav>
+                <div class="logo">
+                    <img src="assets/images/netflix_web_logo.svg" alt="Netflix Logo">
+                </div>
+                <div class="nav_btns">
+                    <button class="lang_selector">
+                        <img src="assets/images/lang_sign.svg" alt="Language Sign" class="lang_sign">
+                        <select name="language" id="language">Choose Language
+                            <option value="english" selected>English</option>
+                            <option value="hindi">Hindi</option>
+                        </select>
+                    </button>
+                    <button class="sign_in"><a href="#">Sign In</a></button>
+                </div>
+            </nav>
+        <!-- Head Content -->
+            <div class="head_box">
+                <div class="head_content">
+                    <h1 class="head_h1">Unlimited movies, TV shows and more</h1>
+                    <p class="head_p">Watch anywhere. Cancel anytime.</p>
+                </div>
+                <div class="login">
+                    <p class="login_p">Ready to watch? Enter your email to create or restart your membership.</p>
+                    <form action="login.php" class="form">
+                        <input type="text" name="e-mail" id="e-mail" class="e-mail" placeholder="Email address">
+                        <button class="form_btn"><a href="#">Get Started&nbsp;&nbsp; ></a></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main section of the page. -->
+    <main>
+        <!-- TV Section -->
+        <section class="main_section">
+            <div class="main_section_content">
+                <div class="main_section_content_text">
+                    <h1 class="main_section_content_text_h1">Enjoy on your TV</h1>
+                    <p class="main_section_content_text_p">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+                </div>
+                <div class="main_section_content_image" id="tv_frame">
+                    <video src="assets/videos/tv_vid.m4v" muted autoplay loop>
+                    </video>
+                    <img src="assets/images/tv_frame.png" alt="TV Screen">
+                </div>
+            </div>
+        </section>
+        <!-- Mobile Section -->
+        <section class="main_section">
+            <div class="main_section_content">
+                <div class="main_section_content_image" id="mobile_frame">
+                    <img src="assets/images/mobile_frame.jpg" alt="Mobile Screen">
+                    <div class="download_box">
+                        <div class="download_box_image">
+                            <img src="assets/images/boxshot.png" alt="Download Box Image">
+                        </div>
+                        <div class="downloading_box">
+                            <p>Stranger Things</p>
+                            <span>Downloading...</span>
+                        </div>
+                        <div class="download_animation">
+                            <img src="assets/videos/download_gif.gif" alt="Download Animation"></img>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_section_content_text">
+                    <h1 class="main_section_content_text_h1">Download your shows to watch offline</h1>
+                    <p class="main_section_content_text_p">Save your favourites easily and always have something to watch.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Desktop Section -->
+        <section class="main_section">
+            <div class="main_section_content">
+                <div class="main_section_content_text">
+                    <h1 class="main_section_content_text_h1">Watch everywhere</h1>
+                    <p class="main_section_content_text_p">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+                </div>
+                <div class="main_section_content_image" id="desktop_frame">
+                    <video src="assets/videos/desktop_vid.m4v" muted autoplay loop>
+                    </video>
+                    <img src="assets/images/desktop_frame.png" alt="TV Screen">
+                </div>
+            </div>
+        </section>
+        <!-- Children Profile Section -->
+        <section class="main_section">
+            <div class="main_section_content">
+                <div class="main_section_content_image" id="children_image">
+                    <img src="assets/images/children.png" alt="Mobile Screen">
+                </div>
+                <div class="main_section_content_text">
+                    <h1 class="main_section_content_text_h1">Create profiles for kids</h1>
+                    <p class="main_section_content_text_p">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQs Section -->
+        <section class="faq_section">
+            <h2>Frequently Asked Questions</h2>
+            <div class="questions">
+                <ul>
+                    <li>
+                        <button type="button">
+                            <span>What is Netflix?</span>
+                            <img src="assets/images/plus.svg" alt="Plus Icon">
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button">
+                            <span>How much does Netflix cost?</span>
+                            <img src="assets/images/plus.svg" alt="Plus Icon">
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button">
+                            <span>Where can I watch?</span>
+                            <img src="assets/images/plus.svg" alt="Plus Icon">
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button">
+                            <span>How do I cancel?</span>
+                            <img src="assets/images/plus.svg" alt="Plus Icon">
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button">
+                            <span>What can I watch on Netflix?</span>
+                            <img src="assets/images/plus.svg" alt="Plus Icon">
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button">
+                            <span>Is Netflix good for kids?</span>
+                            <img src="assets/images/plus.svg" alt="Plus Icon">
+                        </button>
+                    </li>
+                </ul>
+                
+
+            </div>
+            <div class="login">
+                <p class="login_p">Ready to watch? Enter your email to create or restart your membership.</p>
+                <form action="login.php" class="form">
+                    <input type="text" name="e-mail" id="e-mail" class="e-mail" placeholder="Email address">
+                    <button class="form_btn"><a href="#">Get Started ></a></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer of the page. -->
+    <footer>
+        <div class="foot_box">
+            <div class="call_box">
+                <p class="call">Questions? Call <span>000-800-919-1694</span></p>
+            </div>
+            <div class="foot_table">
+                <table>
+                    <tr>
+                        <td>FAQ</td>
+                        <td>Help Centre</td>
+                        <td>Account</td>
+                        <td>Media Centre</td>
+                    </tr>
+                    <tr>
+                        <td>Investor Relations</td>
+                        <td>Jobs</td>
+                        <td>Ways to Watch</td>
+                        <td>Terms of Use</td>
+                    </tr>
+                    <tr>
+                        <td>Privacy</td>
+                        <td>Cookie Preferences</td>
+                        <td>Corporate Information</td>
+                        <td>Contact Us</td>
+                    </tr>
+                    <tr>
+                        <td>Speed Test</td>
+                        <td>Legal Notices</td>
+                        <td>Only on Netflix</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="foot_end">
+                <div class="lang_select_box">
+                    <button class="lang_selector">
+                        <img src="assets/images/lang_sign.svg" alt="Language Sign" class="lang_sign">
+                        <select name="language" id="language">Choose Language
+                            <option value="english" selected>English</option>
+                            <option value="hindi">Hindi</option>
+                        </select>
+                    </button>
+                    <p>Netflix India</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
